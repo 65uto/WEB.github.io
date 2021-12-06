@@ -1,0 +1,49 @@
+    header{
+        background: rgb(31, 31, 31);
+        text-align: left;
+    }
+    header::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    nav{
+        float: center;
+    }
+    li{
+        display: inline-block;
+        margin-left: 50px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+        position: relative;
+    }
+    a{
+        color: chartreuse;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    ul{
+        float: center;
+        background: rgb(31, 31, 31);;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .imgShow {
+        border-radius: 100px;
+        width: 200px;
+    }
+    .Body {
+        font-family: Itim;
+        color: blue;
+        text-align: center;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/23/Whitelee_with_arran_in_the_background.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }    
